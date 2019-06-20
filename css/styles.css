@@ -1,12 +1,16 @@
 body {
-    width:100%;
+    /* width:100%; */
+    /* margin: 0 auto; */
+    /* font-family: 'PT Serif', serif; */
+    width: 100%;
     margin: 0 auto;
-    font-family: 'PT Serif', serif;
+    background-color: #b6ec91;
+    
 }
 .nav-bar {
     height: 70px;
     width: 100%;
-    background-color: #8aafca;
+    background-color: #37c03e;
     position: fixed;
     top: 0px;
      z-index: 1;
@@ -85,15 +89,15 @@ body {
     
 }
 .main-text {
-    margin: 40px;
+    margin: top;
+    float: left;
+    color: aliceblue;
 
 }
 .col-img {
     display: block;
     margin: auto;
-    margin: -top 40px;
-
-
+    margin: top 40px;
 }
 .main-img {
     display: align;

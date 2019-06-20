@@ -1,0 +1,183 @@
+body {
+    width:100%;
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+}
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: #8aafca;
+    position: fixed;
+    top: 0px;
+     z-index: 1;
+}
+.nav-list {
+    float: right;
+    text-align: center;
+    
+}
+.logo {
+    height: 72px;
+    width: 80px;
+}
+.list-item {
+    list-style-type: none;
+    height: 40px;
+    width: 80px;
+    background-color: yellow;
+    float: left;
+    margin-right: 36px;
+    border-radius: 10px
+    
+    
+} 
+.list-item a {
+    text-decoration: none;
+    color: #a98178;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+/* /* .banner-img {
+   height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+  */
+
+
+.banner-img {
+    background-image: url(../imag/mypic.jpg);
+    height: 1100px;
+    width: 100%;
+    background-size: cover;
+
+}
+.banner-text {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    color: white;
+    position: absolute;
+    top: 375;
+    left: 42%;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: #a98178 -3px -2px;
+    box-shadow: #8aafca 8px 6px;
+    border-radius: 8px;
+
+}
+.main-section {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 778px;
+    
+}
+.col {
+    height: 400px;
+    width: 48%;
+    border: 3px solid black;
+    float: left;
+    margin-left: 20px
+    text-align, center;
+    
+}
+.main-text {
+    margin: 40px;
+
+}
+.col-img {
+    display: block;
+    margin: auto;
+    margin: -top 40px;
+
+
+}
+.main-img {
+    display: align;
+    height: 400px;
+    width: 48%;
+    border: 3px solid black;
+}
+.footer {
+    height:70px;
+    width:100%;
+    
+    /* Top: 1295px; */
+    background-color: rgb(113, 113, 230);
+    }
+.input, .social, .copy {
+        float: left;
+        width: 30%;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 33px;
+      
+    }
+.input input, .input, buton, .social a {
+        display: inline-block;
+    }
+    /* ----------------------End of Home Page Style________________ */
+.contact-hearder {
+        background-color: blue;
+        height: 80px;
+        width: 200px;
+        color: red;
+        margin-top: 375;
+        left: 42%;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        text-shadow: #a98178 -3px -2px;
+        box-shadow: #8aafca 8px 6px;
+        border-radius: 8px;
+
+    }
+    .container {
+        height: 550px;
+        width: 100%;
+        margin-top:23px;
+        }
+    .contact-col{
+        float: left;
+        margin: auto;
+        margin-left: 6%;
+       
+    }
+    /* End of Home Style */
+
+    /* About Styles */
+    .about-container {
+        height: 700px;
+        width:  100%;
+        margin-top: 200px;
+        margin-bottom: 20px;
+
+    }
+    .columns {
+        width: 24%;
+        border: 3px solid blue;
+        float: left;
+        padding: 25px 20px;
+        margin-left: 20px;
+        overflow: hidden;
+
+    }
+    .col-img {
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .audio-col {
+        display: block;
+        margin: auto;
+
+    }
+    .col-video {
+        display: block;
+        width: 750px;
+        padding: 10px;
+
+    }
